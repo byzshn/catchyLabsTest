@@ -35,7 +35,7 @@ public class LoginTest {
         WebElement loginButton = driver.findElement(By.xpath("//div[text()='Login']"));
         loginButton.click();
 
-        // Test: Başarılı giriş sonrası beklenen sayfanın URL'si
+        // Test: Başarılı giriş sonrası beklenen sayfanın URL'i
         String expectedUrl = "https://catchylabs-webclient.testinium.com/signIn";
         String actualUrl = driver.getCurrentUrl();
         Assert.assertEquals(actualUrl, expectedUrl, "Login işlemi başarılı oldu!");

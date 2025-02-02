@@ -10,13 +10,13 @@ public class Driver {
     public static WebDriver startDriver() {
         WebDriverManager.chromedriver().setup(); // WebDriverManager ile driver'ı başlat
         driver = new ChromeDriver(); // ChromeDriver başlatılır
-        driver.manage().window().maximize(); // Pencereyi maksimum yapar
+        driver.manage().window().maximize(); // Pencereyi tam ekran yapar
         return driver;
     }
 
     public static void quitDriver() {
         if (driver != null) {
-           // driver.quit(); // Tarayıcıyı kapatır
+           driver.quit(); // Tarayıcıyı kapatır
         }
     }
 }
