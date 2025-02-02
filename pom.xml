@@ -1,0 +1,23 @@
+<dependencies>
+    <!-- Selenium -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.15.0</version>
+    </dependency>
+
+    <!-- WebDriver Manager (Driver konfigürasyonu için) -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.7.0</version>
+    </dependency>
+
+    <!-- JUnit 5 (Test framework) -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.9.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
